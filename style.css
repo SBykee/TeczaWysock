@@ -73,6 +73,14 @@ body {
     z-index: 2;
 }
 
+.bg__img--player2 {
+    position: absolute;
+    height: 50%;
+    top: 30vh;
+    right: 29vh;
+    z-index: 2;
+}
+
 /* header {
     display: flex;
     align-items: center;
