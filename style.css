@@ -37,16 +37,26 @@ body {
     -webkit-backdrop-filter: blur(5px);
 }
 
-.bg_matrix {
+.bg__img {
     position: absolute;
+}
+
+.bg__img--herb {
     top: 0;
     right: 60%;
-    animation: slideDown 6s;
+    height: 40vh;
+    animation: slideDown 6s linear infinite;
+}
+
+.bg__img--ball1 {
+    top: 11vh;
+    right: 12%;
+    height: 30vh;
 }
 
 @keyframes slideDown {
-    from {top: 0}
-    to {top: 100%}
+    from {transform: translateY(-30vh);}
+    to {transform: translateY(100vh);}
 }
 
 /* header {
