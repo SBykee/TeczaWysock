@@ -35,28 +35,42 @@ body {
     position: relative;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    z-index: 1;
 }
 
 .bg__img {
     position: absolute;
 }
 
-.bg__img--herb {
-    top: 0;
+.bg__img--clubname {
+    bottom: 0;
     right: 60%;
-    height: 25vh;
-    animation: slideDown 6s linear infinite;
+    height: 50vh;
+    animation: slideDown 25s linear infinite;
 }
 
 .bg__img--ball1 {
     top: 11vh;
-    right: 12%;
+    right: 16%;
     height: 30vh;
+    animation: rotate 20s linear infinite;
 }
 
 @keyframes slideDown {
-    from {transform: translateY(-25vh);}
-    to {transform: translateY(100vh);}
+    from {transform: translateY(50vh);}
+    to {transform: translateY(-100vh);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.bg__img--herblogo {
+    position: absolute;
+    top: 15vh;
+    left: 43vh;
+    z-index: 2;
 }
 
 /* header {
