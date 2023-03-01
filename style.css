@@ -17,7 +17,10 @@ body {
     align-items: center;
     background: var(--black-background);
     font-family: 'Montserrat Subrayada', sans-serif;
-    /* background: linear-gradient(333deg, var(--green-background) 0%, var(--black-background) 27%); */
+}
+
+canvas {
+    position: absolute;
 }
 
 .container {
@@ -39,7 +42,7 @@ body {
 .bg__img--clubname {
     bottom: 0;
     right: 60%;
-    height: 50vh;
+    height: 100vh;
     animation: slideDown 25s linear infinite;
 }
 
@@ -81,5 +84,5 @@ header {
 }
 
 h1 {
-    color: #19a320;
+    color: var(--green-background);
 }
