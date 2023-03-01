@@ -16,15 +16,9 @@ body {
     justify-content: center;
     align-items: center;
     background: var(--black-background);
+    font-family: 'Montserrat Subrayada', sans-serif;
     /* background: linear-gradient(333deg, var(--green-background) 0%, var(--black-background) 27%); */
 }
-
-/* main { */
-    /* width: 100vw; */
-    /* height: 100vh; */
-    /* padding-top: 40px; */
-    /* display: flex; */
-/* } */
 
 .container {
     width: 50%;
@@ -50,8 +44,8 @@ body {
 }
 
 .bg__img--ball1 {
-    top: 11vh;
-    right: 16%;
+    top: 60vh;
+    left: 16%;
     height: 30vh;
     animation: rotate 20s linear infinite;
 }
@@ -75,24 +69,17 @@ body {
 
 .bg__img--player2 {
     position: absolute;
-    height: 50%;
-    top: 30vh;
-    right: 29vh;
+    height: 80%;
+    top: 18vh;
+    right: -7vw;
     z-index: 2;
 }
 
-/* header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header {
+    margin-top: 2vh;
+    margin-left: 5vw;
 }
 
 h1 {
     color: #19a320;
 }
-
-.Herb {
-    width: 196px;
-    height: 200px;
-    margin-top: 30px;
-} */
