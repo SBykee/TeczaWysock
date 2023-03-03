@@ -116,4 +116,20 @@ a:after {
 
 a:hover:after {
     width: 100%;
+    padding: 30px;
+}
+
+.button-start .entry-button {
+    display: block;
+    width: 20%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px var(--black-background);
+    background-color: var(--green-background);
+    color: var(--white-letter);
+    position: absolute;
+    right: 30%;
+    bottom: 30%;
+    cursor: pointer;
 }
