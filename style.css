@@ -34,6 +34,7 @@ canvas {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     z-index: 1;
+    overflow: auto;
 }
 
 .bg__img {
@@ -100,13 +101,19 @@ a {
     position: relative;
 }
 
-.under__line {
-    width: 100%;
+a:after {
+    content: "";
+    width: 0;
     height: 3px;
     position: absolute;
     top: 100%;
     left: 0;
     background: var(--green-background);
-    background: linear-gradient(240deg, transparent, var(--green-background));
+    background: linear-gradient(90deg, transparent, var(--green-background));
     border-radius: 5px;
+    transition: width 0.3s;
+}
+
+a:hover:after {
+    width: 100%;
 }
