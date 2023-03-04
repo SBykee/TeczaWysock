@@ -34,7 +34,6 @@ canvas {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     z-index: 1;
-    overflow: auto;
 }
 
 .bg__img {
@@ -81,27 +80,29 @@ canvas {
 }
 
 header {
-    margin-top: 2vh;
-    margin-left: 5vw;
+
+
 }
 
 h1 {
+    margin-left: 90px;
     font-size: 48px;
     color: var(--green-background);
 }
 
 p {
+    margin-left: 90px;
     font-size: 24px;
     color: var(--white-letter);
 }
 
-a {
+.underline {
     color: var(--green-background);
     text-decoration: none;
     position: relative;
 }
 
-a:after {
+.underline:after {
     content: "";
     width: 0;
     height: 3px;
@@ -114,22 +115,22 @@ a:after {
     transition: width 0.3s;
 }
 
-a:hover:after {
+.underline:hover:after {
     width: 100%;
-    padding: 30px;
 }
 
-.button-start .entry-button {
-    display: block;
-    width: 20%;
-    height: 30px;
+.entry-button {
+    width: 150px;
+    padding: 8px 25px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #07dd1c;
+    border-radius: 3px;
     border: none;
-    border-radius: 5px;
-    box-shadow: 8px 8px 8px var(--black-background);
-    background-color: var(--green-background);
-    color: var(--white-letter);
-    position: absolute;
-    right: 30%;
-    bottom: 30%;
-    cursor: pointer;
+}
+
+.entry-button:hover {
+    color: #000000;
+    background: yellow;
 }
