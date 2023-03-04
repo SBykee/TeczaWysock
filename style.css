@@ -11,8 +11,9 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +31,7 @@ canvas {
     background: rgba(2, 36, 2, 0.8);
     background: linear-gradient(333deg, rgba(1, 56, 10, 0.75), rgba(27, 27, 27, 0.25));
     border-radius: 25px;
-    position: relative;
+    position: absolute;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     z-index: 1;
@@ -80,18 +81,16 @@ canvas {
 }
 
 header {
-
-
+    margin-top: 2vh;
+    margin-left: 5vw;
 }
 
 h1 {
-    margin-left: 90px;
     font-size: 48px;
     color: var(--green-background);
 }
 
 p {
-    margin-left: 90px;
     font-size: 24px;
     color: var(--white-letter);
 }
