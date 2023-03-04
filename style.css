@@ -11,9 +11,8 @@
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    position: absolute;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,8 +25,8 @@ canvas {
 }
 
 .container {
-    width: 50%;
-    height: 50%;
+    width: 50vw;
+    height: 50vh;
     background: rgba(2, 36, 2, 0.8);
     background: linear-gradient(333deg, rgba(1, 56, 10, 0.75), rgba(27, 27, 27, 0.25));
     border-radius: 25px;
@@ -39,6 +38,18 @@ canvas {
 
 .bg__img {
     position: absolute;
+}
+
+.bg__img--herblogo {
+    top: 15vh;
+    left: 43vh;
+    z-index: 2;
+}
+
+.bg__img--player2 {
+height: 100%;
+left: 68%;
+z-index: 2;
 }
 
 .bg__img--clubname {
@@ -65,33 +76,19 @@ canvas {
     to {transform: rotate(360deg);}
 }
 
-.bg__img--herblogo {
-    position: absolute;
-    top: 15vh;
-    left: 43vh;
-    z-index: 2;
-}
-
-.bg__img--player2 {
-    position: absolute;
-    height: 80%;
-    top: 18vh;
-    right: -7vw;
-    z-index: 2;
-}
-
 header {
-    margin-top: 2vh;
-    margin-left: 5vw;
+    display: block;
 }
 
 h1 {
+    margin-left: 80px;
     font-size: 48px;
     color: var(--green-background);
 }
 
 p {
-    font-size: 24px;
+    margin-left: 80px;
+    font-size: 20px;
     color: var(--white-letter);
 }
 
@@ -116,6 +113,12 @@ p {
 
 .underline:hover:after {
     width: 100%;
+}
+
+.transition {
+    position: absolute;
+    right: 220px;
+    margin-top: 150px;
 }
 
 .entry-button {
