@@ -117,3 +117,10 @@ ol > li > ul > li:hover {
 ol > li > ul > li:hover > a {
   color: var(--white-letter);
 }
+
+.matchresults {
+  background: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
