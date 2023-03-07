@@ -118,9 +118,39 @@ ol > li > ul > li:hover > a {
   color: var(--white-letter);
 }
 
-.matchresults {
-  background: blue;
+.match_results {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  background: blue;
+}
+
+.button_left {
+  left: 0;
+}
+
+.host_club_logo {
+  width: 40px;
+  height: 40px;
+  margin: 2px 0;
+}
+
+.host_result {
+  margin:0 5px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.button_right {
+  right: 0;
+}
+
+.guest_club_logo {
+  width: 40px;
+  height: 40px;
+  margin: 2px 0;
+}
+
+.guest_result {
+  margin:0 5px;
+  font-size: 24px;
+  font-weight: 700;
 }
