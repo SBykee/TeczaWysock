@@ -29,6 +29,10 @@ body {
     font-size: 24px;
 }
 
+.intro {
+position: absolute;
+}
+
 .teczaherb {
     height: 100%;
 
