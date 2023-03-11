@@ -158,3 +158,12 @@ ol > li > ul > li:hover > a {
   font-size: 24px;
   font-weight: 700;
 }
+
+.info-container {
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  top: 700px;
+  left: 700px;
+  background: #f07604;
+}
