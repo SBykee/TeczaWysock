@@ -26,11 +26,30 @@ body {
     height: 90px;
     background: grey;
     display: flex;
+    position: relative;
     font-size: 24px;
+    justify-content: space-between;
 }
 
-.intro {
-position: absolute;
+button.intro {
+width: 80px;
+height: 20px;
+margin: 0 5px;
+background: #ff0000;
+border-radius: 15px;
+border-color: var(--orange-background);
+top: 20px;
+}
+
+button.intro:hover {
+  background: var(--orangered-background);
+  cursor: pointer;
+}
+
+button.intro>a {
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--black-background);
 }
 
 .teczaherb {
@@ -47,13 +66,6 @@ H1 {
     color: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.upmenu {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 ol {
@@ -122,48 +134,49 @@ ol > li > ul > li:hover > a {
   color: var(--white-letter);
 }
 
-.match_results {
+.matches {
+  width: 60vw;
   display: flex;
+  justify-content: space-between;
   background: blue;
 }
 
-.button_left {
-  left: 0;
+.actualMatch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.host_club_logo {
+.host_club_logo, .guest_club_logo {
   width: 40px;
   height: 40px;
   margin: 2px 0;
 }
 
-.host_result {
+.host_result, .guest_result {
   margin:0 5px;
   font-size: 24px;
   font-weight: 700;
 }
 
-.button_right {
-  right: 0;
-}
-
-.guest_club_logo {
-  width: 40px;
-  height: 40px;
-  margin: 2px 0;
-}
-
-.guest_result {
-  margin:0 5px;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.info-container {
+/* .info-container {
   width: 350px;
   height: 500px;
   position: absolute;
   top: 700px;
   left: 700px;
   background: #f07604;
+} */
+
+main {
+  margin-top: 40px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.tab1 {
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--red-background);
 }
