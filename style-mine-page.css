@@ -180,3 +180,12 @@ main {
   justify-content: center;
   border: 2px solid var(--red-background);
 }
+
+.wydażenie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #07dd1c;
+  background: #f07604;
+  font-size: 24px;
+}

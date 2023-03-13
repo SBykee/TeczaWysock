@@ -1,19 +1,32 @@
-const createChalangeElement = (teams) => {
-
-    const teams = ["Delin Munina", "Dąb Cetula", "Wisznia Nienowice", "Przedmieście Jarosław", "Piast II Tuczempy", "Korona Tuchla", "Sanovia Michałówka", "Łęg Łowce", "Wesoła Zadąbrowie", "Makovia Makowisko", "Łazowianka Łazy"];
+const teams = ["Delin Munina", "Dąb Cetula", "Wisznia Nienowice", "Przedmieście Jarosław", "Piast II Tuczempy", "Korona Tuchla", "Sanovia Michałówka", "Łęg Łowce", "Wesoła Zadąbrowie", "Makovia Makowisko", "Łazowianka Łazy"];
 
     for (let i=0; i < teams.length; i++) {
         const challengeTeam = teams[i];
-        document.write(challengeTeam);
-    };
 
-    const infoElement = document.append()
+            // const teamElement = document.createElement("div");
+            // teamElement.classList.add("wydażenie");
 
-    const valueElement = document.createElement("span");
-    valueElement.innerText = challengeTeam;
+            // const host = document.createElement("strong");
+            // host.innerText = "Tęcza Wysock";
 
-    infoElement.appendChild(labelElement);
-    infoElement.appendChild(valueElement);
+            // const guest = document.createElement("strong");
+            // guest.innerText = challengeTeam;
 
-    return infoElement;
-};
+            // teamElement.appendChild(host);
+            // teamElement.appendChild(guest);
+
+console.log(challengeTeam);
+        };
+
+
+         // const teamElement = document.createElement("div");
+            // teamElement.classList.add("wydażenie");
+
+            // const host = document.createElement("strong");
+            // host.innerText = "Tęcza Wysock";
+
+            // const guest = document.createElement("strong");
+            // guest.innerText = challengeTeam;
+
+            // teamElement.appendChild(host);
+            // teamElement.appendChild(guest);
