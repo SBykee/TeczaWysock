@@ -3,30 +3,20 @@ const teams = ["Delin Munina", "Dąb Cetula", "Wisznia Nienowice", "Przedmieści
     for (let i=0; i < teams.length; i++) {
         const challengeTeam = teams[i];
 
-            // const teamElement = document.createElement("div");
-            // teamElement.classList.add("wydażenie");
+        const el = document.createElement("li");
+        el.classList.add("element_li");
 
-            // const host = document.createElement("strong");
-            // host.innerText = "Tęcza Wysock";
+        const strongEL = document.createElement("strong");
+        strongEL.classList.add("element_strong");
 
-            // const guest = document.createElement("strong");
-            // guest.innerText = challengeTeam;
+        strongEL.style.color = "#333";
+        strongEL.innerText = `Tęcza Wysock - ${challengeTeam}`;
 
-            // teamElement.appendChild(host);
-            // teamElement.appendChild(guest);
+        el.appendChild(strongEL);
 
-console.log(challengeTeam);
-        };
+        const div = document.querySelector(".test");
+
+        div.appendChild(el);
 
 
-         // const teamElement = document.createElement("div");
-            // teamElement.classList.add("wydażenie");
-
-            // const host = document.createElement("strong");
-            // host.innerText = "Tęcza Wysock";
-
-            // const guest = document.createElement("strong");
-            // guest.innerText = challengeTeam;
-
-            // teamElement.appendChild(host);
-            // teamElement.appendChild(guest);
+    };
