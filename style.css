@@ -124,6 +124,7 @@ p {
 
 .entry-button {
     width: 150px;
+    height: 35px;
     padding: 8px 25px;
     font-size: 12px;
     font-weight: 700;

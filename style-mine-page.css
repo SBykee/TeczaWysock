@@ -14,7 +14,7 @@
 
 body {
     margin: 0 auto;
-    width: 60vw;
+    width: 1024px;
     height: 100vh;
     display: block;
     background: var(--black-background);
@@ -135,7 +135,7 @@ ol > li > ul > li:hover > a {
 }
 
 .matches {
-  width: 60vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background: blue;

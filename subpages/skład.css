@@ -1,0 +1,74 @@
+:root {
+    --black-background: #000000;
+    --green-background: #07dd1c;
+    --red-background: #ff0000;
+    --orangered-background: #ff4500;
+    --orange-background: #f07604;
+    --white-letter: #ffffff;
+    --blue-background: #0000ff;
+}
+
+.team_composition_contener {
+    width: 1024px;
+    display: block;
+    left: 0;
+
+}
+
+H6 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 3px 10px;
+    background: var(--red-background);
+    margin: 0;
+}
+
+H2 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 15px;
+    background: var(--blue-background);
+}
+
+.player_list ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.team_coaching li{
+    list-style-type: none;
+}
+
+.player_list li {
+    list-style-type: none;
+    padding: 0 5px;
+    position: relative;
+}
+
+.player_pic {
+    width: 200px;
+    height: 250px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.player_list p{
+    width: 200px;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    display: flex;
+    word-wrap: break-word;
+    align-items: center;
+    background: cadetblue;
+    font-size: 18px;
+}
+.player_list span{
+    font-size: 36px;
+    margin-left: 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
